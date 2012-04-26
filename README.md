@@ -17,6 +17,10 @@ Stories
 Stories
 
 *Popup de recherche
-*Call ajax pour actualiser les tweets
-*Mise en page CSS d'un tweet
+Tips : la page dialogue modale ne convenait. La popup est donc entièrement implémentée à la main.
 
+## Séance #3 03/05/2012
+
+* Refactoring du code
+* Structure du JS selon le JQuery plugin pattern
+* API Twitter (ajax call)
