@@ -19,7 +19,7 @@
 <div data-role="page" id="tweets-list">
 	<header data-role="header">
 		<h1><img src="images/twitter_normal.gif" />jsgeneve</h1>
-		<a href="#" data-role="button" data-icon="search" class='ui-btn-right' data-iconpos="right">Filter</a>
+		<a href="#filter" data-role="button"  data-icon="search" class='ui-btn-right' data-iconpos="right">Filter</a>
 	</header>
 
 	<div data-role="content">	
@@ -35,6 +35,22 @@
 			<li><a href="#tweet-detail">My first tweet</a></li>
 		</ul>		
 	</div>
+</div>
+<div id="filter" data-role="dialog">
+	<header data-role="header">
+		<h1>filters</h1>
+	</header>
+	<div data-role="content">
+		<ul data-role="listview">
+			<li><a href="#tweet-detail">Node.js</a></li>
+			<li><a href="#tweet-detail">Zepto</a></li>
+			<li><a href="#tweet-detail">Backbone</a></li>
+			<li><a href="#tweet-detail">Ember</a></li>
+		</ul>
+	</div>
+	<footer data-role="footer">
+
+	</footer>
 </div>
 <div data-role="page" id="tweet-detail">
 	<header data-role="header">
