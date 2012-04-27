@@ -17,6 +17,7 @@ Stories
 Stories
 
 * Popup de recherche
+
 Info : la page dialogue modale ne convenait pas. La popup est donc entièrement implémentée à la main.
 
 ## Séance #3 03/05/2012
