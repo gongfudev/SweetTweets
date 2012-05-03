@@ -24,4 +24,12 @@ Info : la page dialogue modale ne convenait pas. La popup est donc entièrement 
 
 * Refactoring du code
 * Structure du JS selon le JQuery plugin pattern
+* Ajout de jasmine comme framework de test
+* Implémentation de quelques specs
+* Première expérience du développement TDD
+
+## Séance #4 10/05/2012
+
+* Mock de l'ajax call avec Jasmine Spy
 * API Twitter (ajax call)
+* Affichage de la liste de tweets
