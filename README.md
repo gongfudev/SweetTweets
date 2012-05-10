@@ -32,4 +32,10 @@ Info : la page dialogue modale ne convenait pas. La popup est donc entièrement 
 
 * Mock de l'ajax call avec Jasmine Spy
 * API Twitter (ajax call)
+
+## Séance #5 17/05/2012
+
 * Affichage de la liste de tweets
+* Underscore.js
+
+
