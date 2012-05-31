@@ -35,7 +35,11 @@ Info : la page dialogue modale ne convenait pas. La popup est donc entièrement 
 
 ## Séance #5 31/05/2012
 
-* Affichage de la liste de tweets
-* Underscore.js
+* Affichage des tweets de jsgeneve et parsing de l'url via Regexp
+* Test event binding/trigger avec jasmine
 
+## Séance #6 07/06/2012
+
+* Style des tweets (parsing url, @account, #tags)
+* Refactoring
 
