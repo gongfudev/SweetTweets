@@ -1,8 +1,8 @@
-<!DOCTYPE html> 
-<html> 
-  <head> 
-  <title>My Page</title> 
-  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>My Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/jquery.mobile-1.1.0.min.css" />
   <link rel="stylesheet" href="css/sweettweet.css" />
   <script src="lib/jquery-1.7.1.min.js"></script>
@@ -13,6 +13,7 @@
         });
     </script>
   <script src="lib/jquery.mobile-1.1.0.min.js"></script>
+  <script src="js/tweetsFeed.js"></script>
   <script src="js/init.js"></script>
 
   <script>
@@ -20,26 +21,17 @@
       $().initPage();
     });
   </script>
-</head> 
-<body> 
+</head>
+<body>
 <div data-role="page" id="tweets-list">
   <header data-role="header">
     <h1><img src="images/twitter_normal.gif" />jsgeneve</h1>
     <a id="filter-button" data-role="button" data-icon="search" class='ui-btn-right' data-iconpos="right">Filter</a>
   </header>
 
-  <div data-role="content"> 
-    <ul data-role="listview" >
-      <li><a href="#tweet-detail">My first tweet</a></li>
-      <li><a href="#tweet-detail">My first tweet</a></li>
-      <li><a href="#tweet-detail">My first tweet</a></li>
-      <li><a href="#tweet-detail">My first tweet</a></li>
-      <li><a href="#tweet-detail">My first tweet</a></li>
-      <li><a href="#tweet-detail">My first tweet</a></li>
-      <li><a href="#tweet-detail">My first tweet</a></li>
-      <li><a href="#tweet-detail">My first tweet</a></li>
-      <li><a href="#tweet-detail">My first tweet</a></li>
-    </ul>   
+  <div data-role="content">
+    <ul id="tweets" data-role="listview" >
+    </ul>
   </div>
   <div id="filter-popup">
     <div class="arrow"></div>

@@ -1,4 +1,4 @@
-(function( $ ){
+(function( $, SWTW ){
 
   var methods = {
 
@@ -7,9 +7,16 @@
         event.preventDefault();
         $('#filter-popup').show();
       });
+
+      $(document).on('tweetsLoaded', function(event) {
+        $('#tweets').html(SWTW.tweets.join('')).listview("refresh");
+      });
+
+      SWTW.getTweets();
+
     },
 
-    initAll: function( options ) { 
+    initAll: function( options ) {
       $().initPage("tweetsPage");
     },
   };
@@ -26,4 +33,4 @@
     }
   };
 
-})( jQuery );
+})( jQuery, SWTW );
